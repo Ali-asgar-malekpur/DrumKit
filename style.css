@@ -1,0 +1,132 @@
+body {
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right,#222, rgb(53, 53, 53));
+}
+
+.w {
+	background-image: url("images/w.png");
+}
+
+.a {
+	background-image: url("images/a.png");
+}
+
+.s {
+	background-image: url("images/s.png");
+}
+
+.d {
+	background-image: url("images/d.png");
+}
+
+.j {
+	background-image: url("images/j.png");
+}
+
+.k {
+	background-image: url("images/k.png");
+}
+
+.l {
+	background-image: url("images/l.png");
+}
+
+.all {
+	margin: 10% auto;
+    
+}
+
+.animation {
+	box-shadow: 0 3px 4px 0 #DBEDF3;
+	opacity: 0.5;
+}
+
+.button {
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+	background: #333;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+	color: rgb(154, 154, 154);
+	outline: none;
+	font-size: 1.5em;
+	
+	font-weight: 600;
+	text-shadow: 3px 0 #DBEDF3;
+	
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	
+}
+
+button:hover {
+	box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+	font-size: 2rem;
+	transition: 500ms;
+}
+
+button:focus {
+	outline: none;
+}
+
+.red:hover {
+	color: #f07171;
+	text-shadow: 0px 0px 10px #f07171;
+}
+
+.blue:hover {
+	color: #71b7f0;
+	text-shadow: 0px 0px 10px #71b7f0;
+}
+
+.purple:hover {
+	color: #b971f0;
+	text-shadow: 0px 0px 10px #b971f0;
+}
+
+.green:hover {
+	color: #93f071;
+	text-shadow: 0px 0px 10px #93f071;
+}
+
+.pink:hover {
+	color: #f492f0;
+	text-shadow: 0px 0px 10px #f492f0;
+}
+
+.yellow:hover {
+	color: #fff95b;
+	text-shadow: 0px 0px 10px #fff95b;
+}
+
+.peach:hover {
+	color: #ffc8c8;
+	text-shadow: 0px 0px 10px #ffc8c8;
+}
+
+.neonText {
+	color: #fff;
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #b5c6e0,
+		0 0 82px #fff95b,
+		0 0 92px #f492f0,
+		0 0 102px #93f071,
+		0 0 151px #71b7f0;
+  }
+
+  h1 {
+	  font-size: 5.6em;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 400;
+  }
